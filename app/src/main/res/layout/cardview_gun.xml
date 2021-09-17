@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="7dp"
+    android:layout_marginRight="7dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="7dp"
+    android:id="@+id/cardview_gun">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/gun_picture"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:scaleType="center"
+            android:src="@drawable/handgun_01"/>
+
+        <TextView
+            android:id="@+id/gun_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/arbutus"
+            android:text="M1911"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:padding="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="type: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:fontFamily="@font/amita"
+                android:gravity="right"
+                android:padding="3dp"
+                android:layout_weight="0"/>
+
+            <TextView
+                android:id="@+id/gun_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semi-automatic pistol"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:padding="3dp"
+                android:layout_weight="1.5"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="place of origin: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:fontFamily="@font/amita"
+                android:gravity="right"
+                android:padding="3dp"
+                android:layout_weight="0"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/gun_place_of_origin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Canada"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:padding="3dp"
+                android:layout_weight="1.5"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="designer: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:fontFamily="@font/amita"
+                android:gravity="right"
+                android:padding="3dp"
+                android:layout_weight="0"/>
+
+            <TextView
+                android:id="@+id/gun_designer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John Browning"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:padding="3dp"
+                android:layout_weight="1.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="manufacturer: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:fontFamily="@font/amita"
+                android:gravity="right"
+                android:padding="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0"/>
+
+            <TextView
+                android:id="@+id/gun_manufacturer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Colt Manufacturing Company"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:padding="3dp"
+                android:layout_weight="1.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="produced: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:fontFamily="@font/amita"
+                android:gravity="right"
+                android:padding="3dp"
+                android:layout_weight="0"/>
+
+            <TextView
+                android:id="@+id/gun_produced"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1911–present"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:padding="3dp"
+                android:layout_weight="1.5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="weight: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:fontFamily="@font/amita"
+                android:gravity="right"
+                android:padding="3dp"
+                android:layout_weight="0"/>
+
+            <TextView
+                android:id="@+id/gun_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1100 g empty, with magazine"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:padding="3dp"
+                android:layout_weight="1.5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="length: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:fontFamily="@font/amita"
+                android:gravity="right"
+                android:padding="3dp"
+                android:layout_weight="0"/>
+
+            <TextView
+                android:id="@+id/gun_length"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.5 in (216 mm)"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:padding="3dp"
+                android:layout_weight="1.5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="caliber: "
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp"
+                android:fontFamily="@font/amita"
+                android:gravity="right"
+                android:padding="3dp"
+                android:layout_weight="0"/>
+
+            <TextView
+                android:id="@+id/gun_caliber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11.43"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="12sp"
+                android:padding="3dp"
+                android:layout_weight="1.5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

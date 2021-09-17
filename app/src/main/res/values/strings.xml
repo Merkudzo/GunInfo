@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Guns</string>
+
+    <string-array name="guns_list">
+        <item>handguns</item>
+        <item>rifles</item>
+        <item>assault rifles</item>
+        <item>sniper rifles</item>
+    </string-array>
+
+
+</resources>
